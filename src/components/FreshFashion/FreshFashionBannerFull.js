@@ -60,7 +60,7 @@ class FreshFashionBannerFull extends BaseSectionConfig {
             backgroundImage: '/product_images/uploaded_images/fs-banner-full.jpg', 
             backgroundImageAlt: 'fs-banner-full.jpg', 
             title: 'Sale 50%', 
-            subTitle: 'Men’s Fashion Travel Bags', 
+            subTitle: `Men's Fashion Travel Bags`, 
             priceText: 'Only $ 23.99', 
             actionText: 'SHOP NOW', 
             actionLink: '#'
