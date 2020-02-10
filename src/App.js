@@ -15,6 +15,7 @@ import FreshNovelsBook from './FreshNovelsBook';
 import FreshSoundsBannerCollection from './FreshSoundsBannerCollection';
 import FreshSoundsBrand from './FreshSoundsBrand';
 import FreshSoundsEasyShapeSystem from './FreshSoundsEasyShapeSystem';
+import FreshSoundsBanner from './FreshSoundsBanner';
 import FreshSoundsHearingProtection from './FreshSoundsHearingProtection';
 import FreshSoundsTestimonial from './FreshSoundsTestimonial';
 import FreshSoundsVideo from './FreshSoundsVideo';
@@ -35,6 +36,7 @@ function App() {
         <FreshSoundsBannerCollection title="Fresh Sounds Banner Collection" sectionKey="fresh-sounds-banner-collection" />,
         <FreshSoundsBrand title="Fresh Sounds Brand" sectionKey="fresh-sounds-brand" />,
         <FreshSoundsEasyShapeSystem title="Fresh Sounds Easy Shape System" sectionKey="fresh-sounds-easy-shape-system" />,
+        <FreshSoundsBanner title="Fresh Sounds Banner" sectionKey="fresh-sounds-banner" />,
         <FreshSoundsHearingProtection title="Fresh Sounds Hearing Protection" sectionKey="fresh-sounds-hearing-protection" />,
         <FreshSoundsTestimonial title="Fresh Sounds Testimonial" sectionKey="fresh-sounds-testimonial" />,
         <FreshSoundsVideo title="Fresh Sounds Video" sectionKey="fresh-sounds-video" />,

@@ -2,7 +2,7 @@ import React from 'react';
 import { SectionConfigLayout } from './utils';
 import BaseSectionConfig from './BaseSectionConfig';
 
-class FreshSoundsVideoFormGeneral extends React.Component {
+class FreshSoundsVideoYoutubeFormGeneral extends React.Component {
     constructor(props) {
         super(props);
         this.handleChange = this.handleChange.bind(this);
@@ -17,8 +17,8 @@ class FreshSoundsVideoFormGeneral extends React.Component {
         return (
             <form>
                 <div className="form-group">
-                    <label htmlFor="videoUrl">Video URL(video link)</label>
-                    <input type="text" className="form-control" id="videoUrl" name="videoUrl" value={videoUrl} onChange={this.handleChange} placeholder="Enter The video link URL" />
+                    <label htmlFor="videoUrl">Video URL(youtube video link)</label>
+                    <input type="text" className="form-control" id="videoUrl" name="videoUrl" value={videoUrl} onChange={this.handleChange} placeholder="Enter The youtube video link URL" />
                 </div>
                 <div className="form-group">
                     <label htmlFor="Banner">Banner video URL(Recomment image size 1920x945)</label>
@@ -41,15 +41,15 @@ class FreshSoundsVideoFormGeneral extends React.Component {
     }
 }
 
-class FreshSoundsVideo extends BaseSectionConfig {
-    defaultTitle = "Fresh Sounds Video";
-    scopeName = "FreshSoundsVideo";
+class FreshSoundsVideoYoutube extends BaseSectionConfig {
+    defaultTitle = "Fresh Sounds Video Youtube";
+    scopeName = "FreshSoundsVideoYoutube";
 
     constructor(props) {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            videoUrl: "https://fresh-sounds-demo.mybigcommerce.com/content/demo-video.mp4",
+            videoUrl: "https://www.youtube.com/watch?v=npDs_xQ8tOo",
             Banner: "/product_images/uploaded_images/so-video-bg.jpg",
             BannerAlt: "so-video-bg.jpg",
             iconPlay: "/product_images/uploaded_images/so-icon-play.png",
@@ -60,19 +60,19 @@ class FreshSoundsVideo extends BaseSectionConfig {
     render() {
         const data = Buffer.from(JSON.stringify(this.state)).toString('base64');
         return (
-            <SectionConfigLayout elClass="FreshSoundsVideo" title={this.title} sectionKey={this.sectionKey}
+            <SectionConfigLayout elClass="freshSoundsVideoYoutube" title={this.title} sectionKey={this.sectionKey}
                  panels={[
                     {
                         title: "General",
-                        element: <FreshSoundsVideoFormGeneral onFormGeneralChange={this.onFormGeneralChange} {...this.state} heading={this.state.heading} />
+                        element: <FreshSoundsVideoYoutubeFormGeneral onFormGeneralChange={this.onFormGeneralChange} {...this.state} heading={this.state.heading} />
                     }
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-video" data-template="fresh_sounds_video" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-video-youtube" data-template="fresh_sounds_video_youtube" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }
 }
 
-export default FreshSoundsVideo;
+export default FreshSoundsVideoYoutube;
