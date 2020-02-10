@@ -11,20 +11,21 @@ export function Code(props) {
 }
 
 export function SectionConfigLayout(props) {
+    const sectionKey = props.sectionKey ? `(${props.sectionKey})` : '' ;
     return (
         <div className={props.elClass}>
             <div className="card">
                 <div className="card-header">
-                    <h3>{props.title} ({props.sectionKey})</h3>
+                    <h3>{props.title} {sectionKey}</h3>
                 </div>
                 <div className="card-body">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="accordion" id={props.elClass+'Accordion'}>
-                                <div className="card">
+                                <div className="card border-0">
                                     {
                                         props.panels.map((panel, index) => (
-                                            <div className="card" key={index}>
+                                            <div className="card rounded-0 mb-1" key={index}>
                                                 <div className="card-header" id={props.elClass+'Heading'+index}>
                                                     <h4 className="mb-0">
                                                         <button className={'btn btn-link btn-block text-left' + (index > 0 ? ' collapsed' : '')} type="button" data-toggle="collapse" data-target={'#'+props.elClass+'Collapse'+index} aria-expanded="true" aria-controls={props.elClass+'Collapse'+index}>
