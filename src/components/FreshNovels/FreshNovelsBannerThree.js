@@ -127,19 +127,19 @@ class FreshNovelsBannerThree extends BaseSectionConfig {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            img1: "/product_images/uploaded_images/no-b1.jpg",
+            img1: "https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/no-b1.jpg",
             alt1: "no-b1.jpg",
-            imgc1: "/product_images/uploaded_images/no-bc1.png",
+            imgc1: "https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/no-bc1.png",
             altc1: "no-bc1.png",
             actionLink1: "#",
-            img2: "/product_images/uploaded_images/no-b2.jpg",
+            img2: "https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/no-b2.jpg",
             alt2: "no-b2.jpg",
-            imgc2: "/product_images/uploaded_images/no-bc2.png",
+            imgc2: "https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/no-bc2.png",
             altc2: "no-bc2.png",
             actionLink2: "#",
-            img3: "/product_images/uploaded_images/no-b3.jpg",
+            img3: "https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/no-b3.jpg",
             alt3: "no-b3.jpg",
-            imgc3: "/product_images/uploaded_images/no-bc3.png",
+            imgc3: "https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/no-bc3.png",
             altc3: "no-bc3.png",
             actionLink3: "#"
         };

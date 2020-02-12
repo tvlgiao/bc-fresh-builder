@@ -7,6 +7,7 @@ import FreshClothesInformation from './components/FreshClothes/FreshClothesInfor
 import FreshFashionBannerCollection from './components/FreshFashion/FreshFashionBannerCollection';
 import FreshFashionBannerFull from './components/FreshFashion/FreshFashionBannerFull';
 import FreshFashionInstagram from './components/FreshFashion/FreshFashionInstagram';
+
 import FreshNovelsAuthor from './components/FreshNovels/FreshNovelsAuthor';
 import FreshNovelsBannerThree from './components/FreshNovels/FreshNovelsBannerThree';
 import FreshNovelsNewsletter from './components/FreshNovels/FreshNovelsNewsletter';
@@ -18,6 +19,7 @@ import FreshSoundsEasyShapeSystem from './components/FreshSounds/FreshSoundsEasy
 import FreshSoundsHearingProtection from './components/FreshSounds/FreshSoundsHearingProtection';
 import FreshSoundsTestimonial from './components/FreshSounds/FreshSoundsTestimonial';
 import FreshSoundsVideo from './components/FreshSounds/FreshSoundsVideo';
+
 import FreshSweetsBannerCollection from './components/FreshSweets/FreshSweetsBannerCollection';
 import FreshSweetsStepProcess from './components/FreshSweets/FreshSweetsStepProcess';
 import FreshSweetsBannerFull from './components/FreshSweets/FreshSweetsBannerFull';
@@ -33,55 +35,83 @@ import FreshSweetsSidebarInstagram from './components/FreshSweets/FreshSweetsSid
 import FreshSweetsSidebarInformation from './components/FreshSweets/FreshSweetsSidebarInformation';
 import FreshSweetsSidebarClientSays from './components/FreshSweets/FreshSweetsSidebarClientSays';
 import FreshSweetsSidebarOurChefs from './components/FreshSweets/FreshSweetsSidebarOurChefs';
+import FreshSweetsSidebarContact from './components/FreshSweets/FreshSweetsSidebarContact';
+import FreshSweetsSidebarNewsletter from './components/FreshSweets/FreshSweetsSidebarNewsletter';
+import FreshSweetsFooterInformation from './components/FreshSweets/FreshSweetsFooterInformation';
+
+import FreshToysBannerCollection from './components/FreshToys/FreshToysBannerCollection';
+import FreshToysInformation from './components/FreshToys/FreshToysInformation';
+import FreshToysBannerFull from './components/FreshToys/FreshToysBannerFull';
+import FreshToysBannerThree from './components/FreshToys/FreshToysBannerThree';
+import FreshToysBannerMain from './components/FreshToys/FreshToysBannerMain';
+import FreshToysProductsDeal from './components/FreshToys/FreshToysProductsDeal';
+import FreshToysSidebarLeftBannerOne from './components/FreshToys/FreshToysSidebarLeftBannerOne';
+import FreshToysSidebarBannerTwo from './components/FreshToys/FreshToysSidebarBannerTwo';
+import FreshToysSidebarClientSays from './components/FreshToys/FreshToysSidebarClientSays';
+import FreshToysSidebarNewsletter from './components/FreshToys/FreshToysSidebarNewsletter';
+import FreshToysSidebarTagCollection from './components/FreshToys/FreshToysSidebarTagCollection';
+import FreshToysSidebarProductsDeal from './components/FreshToys/FreshToysSidebarProductsDeal';
+
+import FreshCakesTestimonial from './components/FreshCakes/FreshCakesTestimonial';
+import FreshCakesInformation from './components/FreshCakes/FreshCakesInformation';
+import FreshCakesInstagram from './components/FreshCakes/FreshCakesInstagram';
+import FreshCakesBannerCollection from './components/FreshCakes/FreshCakesBannerCollection';
+import FreshCakesMostPopular from './components/FreshCakes/FreshCakesMostPopular';
+import FreshCakesBannerSeven from './components/FreshCakes/FreshCakesBannerSeven';
+import FreshCakesBannerFull from './components/FreshCakes/FreshCakesBannerFull';
+import FreshCakesAboutTheProduct from './components/FreshCakes/FreshCakesAboutTheProduct';
+import FreshCakesFooterInformation from './components/FreshCakes/FreshCakesFooterInformation';
+import FreshCakesFooterContact from './components/FreshCakes/FreshCakesFooterContact';
+import FreshCakesFooterBrands from './components/FreshCakes/FreshCakesFooterBrands';
 
 function App() {
     const tabs = [
         {
             titleGroup: "Fresh Clother Sections",
             children: [
-                <FreshClothesBannerCollection title="Fresh Clothes Banner Collection" sectionKey="fresh-clothes-banner-collection" />,
-                <FreshClothesBannerDeal title="Fresh Clothes Banner Deal" sectionKey="fresh-clothes-banner-deal" />,
-                <FreshClothesBannerThree title="Fresh Clothes Banner Three" sectionKey="fresh-clothes-banner-three" />,
-                <FreshClothesInformation title="Fresh Clothes Information" sectionKey="fresh-clothes-information" />
+                <FreshClothesBannerCollection title="Homepage -- Collection" sectionKey="fresh-clothes-banner-collection" />,
+                <FreshClothesBannerDeal title="Homepage -- Banner Deal" sectionKey="fresh-clothes-banner-deal" />,
+                <FreshClothesBannerThree title="Homepage -- Banner Three" sectionKey="fresh-clothes-banner-three" />,
+                <FreshClothesInformation title="Homepage -- Information" sectionKey="fresh-clothes-information" />
             ]
         },
         {
             titleGroup: "Fresh Fashion Sections",
             children: [
-                <FreshFashionBannerCollection title="Fresh Fashion Banner Collection" sectionKey="fresh-fashion-banner-collection" />,
-                <FreshFashionBannerFull title="Fresh Fashion Banner Full" sectionKey="fresh-fashion-banner-full" />,
-                <FreshFashionInstagram title="Fresh Fashion Instagram" sectionKey="fresh-fashion-instagram" />
+                <FreshFashionBannerCollection title="Homepage -- Banner Collection" sectionKey="fresh-fashion-banner-collection" />,
+                <FreshFashionBannerFull title="Homepage -- Banner Full" sectionKey="fresh-fashion-banner-full" />,
+                <FreshFashionInstagram title="Homepage -- Instagram" sectionKey="fresh-fashion-instagram" />
             ]
         },
         {
             titleGroup: "Fresh Novels Sections",
             children: [
-                <FreshNovelsAuthor title="Fresh Novels Author" sectionKey="fresh-novels-author" />,
-                <FreshNovelsBannerThree title="Fresh Novels Banner Three" sectionKey="fresh-novels-banner-three" />,
-                <FreshNovelsNewsletter title="Fresh Novels Newsletter" sectionKey="fresh-novels-newsletter" />,
-                <FreshNovelsBook title="Fresh Novels Book" sectionKey="fresh-novels-book" />
+                <FreshNovelsAuthor title="Homepage -- Author" sectionKey="fresh-novels-author" />,
+                <FreshNovelsBannerThree title="Homepage -- Banner Three" sectionKey="fresh-novels-banner-three" />,
+                <FreshNovelsNewsletter title="Homepage -- Newsletter" sectionKey="fresh-novels-newsletter" />,
+                <FreshNovelsBook title="Homepage -- Book" sectionKey="fresh-novels-book" />
             ]
         },
         {
             titleGroup: "Fresh Sounds Sections",
             children: [
-                <FreshSoundsBannerCollection title="Fresh Sounds Banner Collection" sectionKey="fresh-sounds-banner-collection" />,
-                <FreshSoundsBrand title="Fresh Sounds Brand" sectionKey="fresh-sounds-brand" />,
-                <FreshSoundsEasyShapeSystem title="Fresh Sounds Easy Shape System" sectionKey="fresh-sounds-easy-shape-system" />,
-                <FreshSoundsHearingProtection title="Fresh Sounds Hearing Protection" sectionKey="fresh-sounds-hearing-protection" />,
-                <FreshSoundsTestimonial title="Fresh Sounds Testimonial" sectionKey="fresh-sounds-testimonial" />,
-                <FreshSoundsVideo title="Fresh Sounds Video" sectionKey="fresh-sounds-video" />,
-                <FreshSoundsInstagram title="Fresh Sounds Instagram" sectionKey="fresh-sounds-instagram" />
+                <FreshSoundsBannerCollection title="Homepage -- Banner Collection" sectionKey="fresh-sounds-banner-collection" />,
+                <FreshSoundsBrand title="Homepage -- Brand" sectionKey="fresh-sounds-brand" />,
+                <FreshSoundsEasyShapeSystem title="Homepage -- Easy Shape System" sectionKey="fresh-sounds-easy-shape-system" />,
+                <FreshSoundsHearingProtection title="Homepage -- Hearing Protection" sectionKey="fresh-sounds-hearing-protection" />,
+                <FreshSoundsTestimonial title="Homepage -- Testimonial" sectionKey="fresh-sounds-testimonial" />,
+                <FreshSoundsVideo title="Homepage -- Video" sectionKey="fresh-sounds-video" />,
+                <FreshSoundsInstagram title="Homepage -- Instagram" sectionKey="fresh-sounds-instagram" />
             ]
         },
         {
             titleGroup: "Fresh Sweets Sections",
             children: [
-                <FreshSweetsBannerCollection title="Banner Collection" sectionKey="fresh-sweets-banner-collection" />,
-                <FreshSweetsStepProcess title="Step Process" sectionKey="fresh-sweets-step-process" />,
-                <FreshSweetsBannerFull title="Banner Full" sectionKey="fresh-sweets-banner-full" />,
-                <FreshSweetsBannerInfo title="Banner Info" sectionKey="fresh-sweets-banner-info" />,
-                <FreshSweetsMainCarousel title="Main Carousel" sectionKey="fresh-sweets-main-carousel" />,
+                <FreshSweetsBannerCollection title="Homepage -- Banner Collection" sectionKey="fresh-sweets-banner-collection" />,
+                <FreshSweetsStepProcess title="Homepage -- Step Process" sectionKey="fresh-sweets-step-process" />,
+                <FreshSweetsBannerFull title="Homepage -- Banner Full" sectionKey="fresh-sweets-banner-full" />,
+                <FreshSweetsBannerInfo title="Homepage -- Banner Info" sectionKey="fresh-sweets-banner-info" />,
+                <FreshSweetsMainCarousel title="Homepage -- Main Carousel" sectionKey="fresh-sweets-main-carousel" />,
                 <FreshSweetsSidebarLeftBannerOne title="Sidebar -- Banner Left One" />,
                 <FreshSweetsSidebarRightBannerOne title="Sidebar -- Banner Right One" />,
                 <FreshSweetsSidebarRightBannerTwo title="Sidebar -- Banner Right Two" />,
@@ -91,7 +121,43 @@ function App() {
                 <FreshSweetsSidebarInstagram title="Sidebar -- Sidebar Instagram" />,
                 <FreshSweetsSidebarInformation title="Sidebar -- Sidebar Information" />,
                 <FreshSweetsSidebarClientSays title="Sidebar -- Sidebar Client Says" />,
-                <FreshSweetsSidebarOurChefs title="Sidebar -- Sidebar Our Chefs" />
+                <FreshSweetsSidebarOurChefs title="Sidebar -- Sidebar Our Chefs" />,
+                <FreshSweetsSidebarContact title="Sidebar -- Sidebar Contact" />,
+                <FreshSweetsSidebarNewsletter title="Sidebar -- Sidebar Newsletter" />,
+                <FreshSweetsFooterInformation title="Footer -- Footer Information" />
+            ]
+        },
+        {
+            titleGroup: "Fresh Toys Sections",
+            children: [
+                <FreshToysBannerMain title="Homepage -- Banner Main" sectionKey="fresh-toys-banner-main"/>,
+                <FreshToysBannerCollection title="Homepage -- Banner Collection" sectionKey="fresh-toys-banner-collection"/>,
+                <FreshToysInformation title="Homepage -- Information" sectionKey="fresh-toys-information"/>,
+                <FreshToysBannerFull title="Homepage -- Banner Full" sectionKey="fresh-toys-banner-full"/>,
+                <FreshToysBannerThree title="Homepage -- Banner three" sectionKey="fresh-toys-banner-three"/>,
+                <FreshToysProductsDeal title="Homepage -- Products Deal" sectionKey="fresh-toys-products-deal"/>,
+                <FreshToysSidebarLeftBannerOne title="Sidebar -- Sidebar Banner One"/>,
+                <FreshToysSidebarBannerTwo title="Sidebar -- Sidebar Banner Two"/>,
+                <FreshToysSidebarClientSays title="Sidebar -- Sidebar Client Says"/>,
+                <FreshToysSidebarNewsletter title="Sidebar -- Sidebar Newsletter"/>,
+                <FreshToysSidebarTagCollection title="Sidebar -- Sidebar Tag Collection"/>,
+                <FreshToysSidebarProductsDeal title="Sidebar -- Sidebar Products Deal"/>
+            ]
+        },
+        {
+            titleGroup: "Fresh Cakes Sections",
+            children: [
+                <FreshCakesTestimonial title="Homepage -- Testimonial" sectionKey="fresh-cakes-testimonial"/>,
+                <FreshCakesInformation title="Homepage -- Information" sectionKey="fresh-cakes-information"/>,
+                <FreshCakesInstagram title="Homepage -- Instagram" sectionKey="fresh-cakes-instagram"/>,
+                <FreshCakesBannerCollection title="Homepage -- Banner Collection" sectionKey="fresh-cakes-banner-collection"/>,
+                <FreshCakesMostPopular title="Homepage -- Most Popular" sectionKey="fresh-cakes-most-popular"/>,
+                <FreshCakesBannerSeven title="Homepage -- Banner Seven" sectionKey="fresh-cakes-banner-seven"/>,
+                <FreshCakesBannerFull title="Homepage -- Banner Full" sectionKey="fresh-cakes-banner-full"/>,
+                <FreshCakesAboutTheProduct title="Homepage -- About The Product" sectionKey="fresh-cakes-about-the-product"/>,
+                <FreshCakesFooterInformation title="Footer -- Footer Information"/>,
+                <FreshCakesFooterContact title="Footer -- Footer Contact"/>,
+                <FreshCakesFooterBrands title="Footer -- Footer Brands"/>
             ]
         }
     ];
