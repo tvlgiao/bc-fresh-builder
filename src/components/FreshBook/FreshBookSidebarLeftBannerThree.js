@@ -2,7 +2,7 @@ import React from 'react';
 import { SectionConfigLayout } from '../../utils';
 import BaseSectionConfig from '../../BaseSectionConfig';
 
-class FreshBooksBannerFullFormGeneral extends React.Component {
+class FreshBookSidebarLeftBannerThreeFormGeneral extends React.Component {
     constructor(props) {
         super(props);
         this.handleChange = this.handleChange.bind(this);
@@ -18,7 +18,7 @@ class FreshBooksBannerFullFormGeneral extends React.Component {
             <form>
                 <div className="form-group">
                     <label htmlFor="img">Banner Image URL</label>
-                    <input type="text" className="form-control" id="img" npame="img" value={img} onChange={this.handleChange} placeholder="Enter The Banner Image URL" />
+                    <input type="text" className="form-control" id="img" name="img" value={img} onChange={this.handleChange} placeholder="Enter The Banner Image URL" />
                 </div>
                 <div className="form-group">
                     <label htmlFor="alt">Banner Image ALT</label>
@@ -41,18 +41,18 @@ class FreshBooksBannerFullFormGeneral extends React.Component {
     }
 }
 
-class FreshBooksBannerFull extends BaseSectionConfig {
-    defaultTitle = "Fresh Books Banner Full";
-    scopeName = "FreshBooksBannerFull";
+class FreshBookSidebarLeftBannerThree extends BaseSectionConfig {
+    defaultTitle = "Fresh Book Sidebar Left Banner Three";
+    scopeName = "FreshBookSidebarLeftBannerThree";
 
     constructor(props) {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            img: 'https://cdn11.bigcommerce.com/s-d7pvcwryxv/product_images/uploaded_images/banner-old-comic.jpg', 
-            alt: 'banner-old-comic.jpg',
-            imgCaption: 'https://cdn11.bigcommerce.com/s-d7pvcwryxv/product_images/uploaded_images/text-banner-old-comic.png', 
-            altCaption: 'text-banner-old-comic.png',
+            img: 'https://cdn11.bigcommerce.com/s-d7pvcwryxv/product_images/uploaded_images/banner-upto.png', 
+            alt: 'banner-upto.png',
+            imgCaption: 'https://cdn11.bigcommerce.com/s-d7pvcwryxv/product_images/uploaded_images/text-banner-upto.png', 
+            altCaption: 'text-banner-upto.png',
             actionLink: '#'
         };
     }
@@ -60,19 +60,19 @@ class FreshBooksBannerFull extends BaseSectionConfig {
     render() {
         const data = Buffer.from(JSON.stringify(this.state)).toString('base64');
         return (
-            <SectionConfigLayout elClass="freshBooksBannerFull" title={this.title} sectionKey={this.sectionKey}
+            <SectionConfigLayout elClass="FreshBookSidebarLeftBannerThree" title={this.title} sectionKey={this.sectionKey}
                  panels={[
                     {
                         title: "General",
-                        element: <FreshBooksBannerFullFormGeneral onFormGeneralChange={this.onFormGeneralChange} {...this.state} heading={this.state.heading} />
+                        element: <FreshBookSidebarLeftBannerThreeFormGeneral onFormGeneralChange={this.onFormGeneralChange} {...this.state} heading={this.state.heading} />
                     }
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-books-banner-full" data-template="fresh_books_banner_full" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-book-sidebar-left-banner-three" data-template="fresh_book_sidebar_left_banner_three" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }
 }
 
-export default FreshBooksBannerFull;
+export default FreshBookSidebarLeftBannerThree;

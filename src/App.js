@@ -64,6 +64,12 @@ import FreshCakesFooterInformation from './components/FreshCakes/FreshCakesFoote
 import FreshCakesFooterContact from './components/FreshCakes/FreshCakesFooterContact';
 import FreshCakesFooterBrands from './components/FreshCakes/FreshCakesFooterBrands';
 
+import FreshBookBannerFull from './components/FreshBook/FreshBookBannerFull';
+import FreshBookSidebarLeftBannerOne from './components/FreshBook/FreshBookSidebarLeftBannerOne';
+import FreshBookSidebarLeftBannerTwo from './components/FreshBook/FreshBookSidebarLeftBannerTwo';
+import FreshBookSidebarLeftBannerThree from './components/FreshBook/FreshBookSidebarLeftBannerThree';
+import FreshBookSidebarLeftBannerFour from './components/FreshBook/FreshBookSidebarLeftBannerFour';
+
 function App() {
     const tabs = [
         {
@@ -158,6 +164,16 @@ function App() {
                 <FreshCakesFooterInformation title="Footer -- Footer Information"/>,
                 <FreshCakesFooterContact title="Footer -- Footer Contact"/>,
                 <FreshCakesFooterBrands title="Footer -- Footer Brands"/>
+            ]
+        },
+        {
+            titleGroup: "Fresh Book Sections",
+            children: [
+                <FreshBookBannerFull title="Homepage -- Banner Full" sectionKey="fresh-book-banner-full"/>,
+                <FreshBookSidebarLeftBannerOne title="Sidebar -- Sidebar Left Banner One"/>,
+                <FreshBookSidebarLeftBannerTwo title="Sidebar -- Sidebar Left Banner Two"/>,
+                <FreshBookSidebarLeftBannerThree title="Sidebar -- Sidebar Left Banner Three"/>,
+                <FreshBookSidebarLeftBannerFour title="Sidebar -- Sidebar Left Banner Four"/>
             ]
         }
     ];
