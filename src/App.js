@@ -69,7 +69,8 @@ import FreshBookSidebarLeftBannerOne from './components/FreshBook/FreshBookSideb
 import FreshBookSidebarLeftBannerTwo from './components/FreshBook/FreshBookSidebarLeftBannerTwo';
 import FreshBookSidebarLeftBannerThree from './components/FreshBook/FreshBookSidebarLeftBannerThree';
 import FreshBookSidebarLeftBannerFour from './components/FreshBook/FreshBookSidebarLeftBannerFour';
-
+import FreshBookFooterInformation from './components/FreshBook/FreshBookFooterInformation';
+import FreshBookFooterInstagram from './components/FreshBook/FreshBookFooterInstagram';
 function App() {
     const tabs = [
         {
@@ -173,7 +174,9 @@ function App() {
                 <FreshBookSidebarLeftBannerOne title="Sidebar -- Sidebar Left Banner One"/>,
                 <FreshBookSidebarLeftBannerTwo title="Sidebar -- Sidebar Left Banner Two"/>,
                 <FreshBookSidebarLeftBannerThree title="Sidebar -- Sidebar Left Banner Three"/>,
-                <FreshBookSidebarLeftBannerFour title="Sidebar -- Sidebar Left Banner Four"/>
+                <FreshBookSidebarLeftBannerFour title="Sidebar -- Sidebar Left Banner Four"/>,
+                <FreshBookFooterInformation title="Footer -- Footer Informartion"/>,
+                <FreshBookFooterInstagram title="Footer -- Footer Instagram"/>
             ]
         }
     ];
