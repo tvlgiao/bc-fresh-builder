@@ -71,6 +71,16 @@ import FreshBookSidebarLeftBannerThree from './components/FreshBook/FreshBookSid
 import FreshBookSidebarLeftBannerFour from './components/FreshBook/FreshBookSidebarLeftBannerFour';
 import FreshBookFooterInformation from './components/FreshBook/FreshBookFooterInformation';
 import FreshBookFooterInstagram from './components/FreshBook/FreshBookFooterInstagram';
+
+import FreshStrollersHeaderContact from './components/FreshStrollers/FreshStrollersHeaderContact';
+import FreshStrollersFooterInformation from './components/FreshStrollers/FreshStrollersFooterInformation';
+import FreshStrollersBannerCarousel from './components/FreshStrollers/FreshStrollersBannerCarousel';
+import FreshStrollersBannerText from './components/FreshStrollers/FreshStrollersBannerText';
+import FreshStrollersBannerTwo from './components/FreshStrollers/FreshStrollersBannerTwo';
+import FreshStrollersBannerProduct from './components/FreshStrollers/FreshStrollersBannerProduct';
+import FreshStrollersProductsByCategoryOne from './components/FreshStrollers/FreshStrollersProductsByCategoryOne';
+import FreshStrollersProductsByCategoryTwo from './components/FreshStrollers/FreshStrollersProductsByCategoryTwo';
+
 function App() {
     const tabs = [
         {
@@ -177,6 +187,19 @@ function App() {
                 <FreshBookSidebarLeftBannerFour title="Sidebar -- Sidebar Left Banner Four"/>,
                 <FreshBookFooterInformation title="Footer -- Footer Informartion"/>,
                 <FreshBookFooterInstagram title="Footer -- Footer Instagram"/>
+            ]
+        },
+        {
+            titleGroup: "Fresh Strollers Sections",
+            children: [
+            <FreshStrollersHeaderContact title="Header -- Header Contact"/>,
+                <FreshStrollersBannerCarousel title="Banner Carousel" sectionKey="fresh-book-banner-full"/>,
+                <FreshStrollersBannerText title="Banner Text" sectionKey="fresh-strollers-banner-text"/>,
+                <FreshStrollersBannerTwo title="Banner Two and Banner Video" sectionKey="fresh-strollers-banner-two"/>,
+                <FreshStrollersBannerProduct title="Banner Product" sectionKey="fresh-strollers-banner-product-info"/>,
+                <FreshStrollersProductsByCategoryOne title="Products By Category One" sectionKey="fresh-strollers-product-by-category-1"/>,
+                <FreshStrollersProductsByCategoryTwo title="Products By Category Two" sectionKey="fresh-strollers-product-by-category-2"/>,
+                <FreshStrollersFooterInformation title="Footer -- Footer Informartion"/>
             ]
         }
     ];
