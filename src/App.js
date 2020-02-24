@@ -193,12 +193,12 @@ function App() {
             titleGroup: "Fresh Strollers Sections",
             children: [
             <FreshStrollersHeaderContact title="Header -- Header Contact"/>,
-                <FreshStrollersBannerCarousel title="Banner Carousel" sectionKey="fresh-book-banner-full"/>,
-                <FreshStrollersBannerText title="Banner Text" sectionKey="fresh-strollers-banner-text"/>,
-                <FreshStrollersBannerTwo title="Banner Two and Banner Video" sectionKey="fresh-strollers-banner-two"/>,
-                <FreshStrollersBannerProduct title="Banner Product" sectionKey="fresh-strollers-banner-product-info"/>,
-                <FreshStrollersProductsByCategoryOne title="Products By Category One" sectionKey="fresh-strollers-product-by-category-1"/>,
-                <FreshStrollersProductsByCategoryTwo title="Products By Category Two" sectionKey="fresh-strollers-product-by-category-2"/>,
+                <FreshStrollersBannerCarousel title="Homepage -- Banner Carousel" sectionKey="fresh-book-banner-full"/>,
+                <FreshStrollersBannerText title="Homepage -- Banner Text" sectionKey="fresh-strollers-banner-text"/>,
+                <FreshStrollersBannerTwo title="Homepage -- Banner Two and Banner Video" sectionKey="fresh-strollers-banner-two"/>,
+                <FreshStrollersBannerProduct title="Homepage -- Banner Product" sectionKey="fresh-strollers-banner-product-info"/>,
+                <FreshStrollersProductsByCategoryOne title="Homepage -- Products By Category One" sectionKey="fresh-strollers-product-by-category-1"/>,
+                <FreshStrollersProductsByCategoryTwo title="Homepage -- Products By Category Two" sectionKey="fresh-strollers-product-by-category-2"/>,
                 <FreshStrollersFooterInformation title="Footer -- Footer Informartion"/>
             ]
         }
