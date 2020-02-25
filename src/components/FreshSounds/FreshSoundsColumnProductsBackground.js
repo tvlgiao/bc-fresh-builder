@@ -2,7 +2,7 @@ import React from 'react';
 import { SectionConfigLayout } from '../../utils';
 import BaseSectionConfig from '../../BaseSectionConfig';
 
-class FreshSoundsBannerFormGeneral extends React.Component {
+class FreshSoundsColumnProductsBackgroundFormGeneral extends React.Component {
     constructor(props) {
         super(props);
         this.handleChange = this.handleChange.bind(this);
@@ -33,36 +33,35 @@ class FreshSoundsBannerFormGeneral extends React.Component {
     }
 }
 
-class FreshSoundsBanner extends BaseSectionConfig {
-    defaultTitle = "Fresh Sounds Banner";
-    scopeName = "FreshSoundsBanner";
+class FreshSoundsColumnProductsBackground extends BaseSectionConfig {
+    defaultTitle = "Fresh Sounds Column Products Background";
+    scopeName = "FreshSoundsColumnProductsBackground";
 
     constructor(props) {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            backgroundImage: 'https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-freeship-bg.jpg', 
-            backgroundImageAlt: 'so-freeship-bg.jpg', 
-            title: '<strong>FREE SHIPPING</strong> US ORDERS OVER <strong>$50</strong>'
+            backgroundImage: 'https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-section-bg01.jpg', 
+            backgroundImageAlt: 'so-section-bg01.jpg'
         };
     }
 
     render() {
         const data = Buffer.from(JSON.stringify(this.state)).toString('base64');
         return (
-            <SectionConfigLayout elClass="freshSoundsBanner" title={this.title} sectionKey={this.sectionKey}
+            <SectionConfigLayout elClass="FreshSoundsColumnProductsBackground" title={this.title} sectionKey={this.sectionKey}
                  panels={[
                     {
                         title: "General",
-                        element: <FreshSoundsBannerFormGeneral onFormGeneralChange={this.onFormGeneralChange} {...this.state} heading={this.state.heading} />
+                        element: <FreshSoundsColumnProductsBackgroundFormGeneral onFormGeneralChange={this.onFormGeneralChange} {...this.state} heading={this.state.heading} />
                     }
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-banner" data-template="fresh_sounds_banner" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-column-products-background" data-template="fresh_sounds_column_products_background" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }
 }
 
-export default FreshSoundsBanner;
+export default FreshSoundsColumnProductsBackground;

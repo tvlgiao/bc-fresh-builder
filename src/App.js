@@ -31,6 +31,7 @@ import FreshSoundsTestimonial from './components/FreshSounds/FreshSoundsTestimon
 import FreshSoundsVideo from './components/FreshSounds/FreshSoundsVideo';
 import FreshSoundsFooterBackground from './components/FreshSounds/FreshSoundsFooterBackground';
 import FreshSoundsFooterInstagram from './components/FreshSounds/FreshSoundsFooterInstagram';
+import FreshSoundsColumnProductsBackground from './components/FreshSounds/FreshSoundsColumnProductsBackground';
 
 import FreshSweetsBannerCollection from './components/FreshSweets/FreshSweetsBannerCollection';
 import FreshSweetsStepProcess from './components/FreshSweets/FreshSweetsStepProcess';
@@ -65,6 +66,7 @@ import FreshToysSidebarNewsletter from './components/FreshToys/FreshToysSidebarN
 import FreshToysSidebarTagCollection from './components/FreshToys/FreshToysSidebarTagCollection';
 import FreshToysSidebarProductsDeal from './components/FreshToys/FreshToysSidebarProductsDeal';
 import FreshToysFooterBackground from './components/FreshToys/FreshToysFooterBackground';
+import FreshToysFooterInformation from './components/FreshToys/FreshToysFooterInformation';
 
 import FreshCakesTestimonial from './components/FreshCakes/FreshCakesTestimonial';
 import FreshCakesInformation from './components/FreshCakes/FreshCakesInformation';
@@ -143,6 +145,7 @@ function App() {
                 <FreshSoundsHearingProtection title="Homepage -- Hearing Protection" sectionKey="fresh-sounds-hearing-protection" />,
                 <FreshSoundsTestimonial title="Homepage -- Testimonial" sectionKey="fresh-sounds-testimonial" />,
                 <FreshSoundsVideo title="Homepage -- Video" sectionKey="fresh-sounds-video" />,
+                <FreshSoundsColumnProductsBackground title="Homepage -- Column Products Background"/>,
                 <FreshSoundsInstagram title="Homepage -- Instagram" sectionKey="fresh-sounds-instagram" />,
                 <FreshSoundsFooterBackground title="Footer -- Footer Background" />,
                 <FreshSoundsFooterInstagram title="Footer -- Footer Instagram"/>
@@ -187,7 +190,8 @@ function App() {
                 <FreshToysSidebarNewsletter title="Sidebar -- Sidebar Newsletter"/>,
                 <FreshToysSidebarTagCollection title="Sidebar -- Sidebar Tag Collection"/>,
                 <FreshToysSidebarProductsDeal title="Sidebar -- Sidebar Products Deal"/>,
-                <FreshToysFooterBackground title="Footer -- Footer Background" />
+                <FreshToysFooterBackground title="Footer -- Footer Background" />,
+                <FreshToysFooterInformation title="Footer -- Footer Information" />
             ]
         },
         {
