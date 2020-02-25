@@ -116,15 +116,15 @@ class FreshSoundsEasyShapeSystem extends BaseSectionConfig {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            backgroundImage: "/product_images/uploaded_images/so-section-bg02.jpg",
+            backgroundImage: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-section-bg02.jpg",
             backgroundImageAlt: "so-section-bg02.jpg",
             heading: "System",
             subHeading: "Easy Shape",
-            img: "/product_images/uploaded_images/bkg.png",
+            img: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/bkg.png",
             alt: "bkg.png",
             items: [
                 {
-                    icon1: "/product_images/uploaded_images/so-hp-ico1.png",
+                    icon1: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-hp-ico1.png",
                     iconAlt1: "so-hp-ico1.png",
                     title1: "RE - MOLDABLE",
                     caption1: "It is a long established fact that a reader will be distracted by the readable content.",
@@ -136,12 +136,12 @@ class FreshSoundsEasyShapeSystem extends BaseSectionConfig {
                     actionLink2: ""
                 },
                 {
-                    icon1: "/product_images/uploaded_images/so-hp-ico2.png",
+                    icon1: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-hp-ico2.png",
                     iconAlt1: "so-hp-ico2.png",
                     title1: "HEAT",
                     caption1: "Many desktop publishing packages and web page editors now use Lorem Ipsum as",
                     actionLink1: "#",
-                    icon2: "/product_images/uploaded_images/so-hp-ico3.png",
+                    icon2: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-hp-ico3.png",
                     iconAlt2: "so-hp-ico3.png",
                     title2: "SHAPE",
                     caption2: "Many desktop publishing packages and web page editors now use Lorem Ipsum as",

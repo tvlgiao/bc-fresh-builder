@@ -57,7 +57,7 @@ class FreshFashionBannerFull extends BaseSectionConfig {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            backgroundImage: '/product_images/uploaded_images/fs-banner-full.jpg', 
+            backgroundImage: 'https://fresh-fashion-demo.mybigcommerce.com/product_images/uploaded_images/fs-banner-full.jpg', 
             backgroundImageAlt: 'fs-banner-full.jpg', 
             title: 'Sale 50%', 
             subTitle: `Men's Fashion Travel Bags`, 

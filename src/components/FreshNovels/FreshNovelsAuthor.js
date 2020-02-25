@@ -61,7 +61,7 @@ class FreshNovelsAuthor extends BaseSectionConfig {
             subTitle: "NEW AUTHOR",
             description: "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have variations of passages of Lorem Ipsum available, but going to use a passage of Lorem Ipsum",
             categories: "STYLE ART, SRTCHITECTURE",
-            avata: "/product_images/uploaded_images/no-author.jpg",
+            avata: "https://fresh-novels-demo.mybigcommerce.com/product_images/uploaded_images/no-author.jpg",
             avataAlt: "no-author.jpg",
             productID: "111"
         };

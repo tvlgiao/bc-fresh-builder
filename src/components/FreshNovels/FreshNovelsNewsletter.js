@@ -57,7 +57,7 @@ class FreshNovelsNewsletter extends BaseSectionConfig {
             title: "Sign up to get 10% off your first order",
             placeholder: "Enter your email",
             formAction: "/",
-            background: "/product_images/uploaded_images/no-newsletter-background.jpg",
+            background: "https://fresh-novels-demo.mybigcommerce.com/product_images/uploaded_images/no-newsletter-background.jpg",
             backgroundAlt: "no-newsletter-background.jpg",
         };
     }

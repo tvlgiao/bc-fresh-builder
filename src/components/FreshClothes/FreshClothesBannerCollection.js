@@ -79,7 +79,7 @@ class FreshClothesBannerCollection extends BaseSectionConfig {
         this.state = this.getStateFromLocalStorage() || {
             items: [
                 { 
-                    img: '/product_images/uploaded_images/cl-bc1.jpg', 
+                    img: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-bc1.jpg', 
                     alt: 'Women Backpack', 
                     title: 'Women Backpack',
                     subTitle: 'Sale up to 10%',
@@ -87,7 +87,7 @@ class FreshClothesBannerCollection extends BaseSectionConfig {
                     actionLink: '#'
                 },
                 { 
-                    img: '/product_images/uploaded_images/cl-bc2.jpg', 
+                    img: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-bc2.jpg', 
                     alt: 'Men Backpack', 
                     title: 'Men Backpack',
                     subTitle: 'Collection',

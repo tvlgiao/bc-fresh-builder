@@ -71,25 +71,25 @@ class FreshClothesInformation extends BaseSectionConfig {
         this.state = this.getStateFromLocalStorage() || {
             items: [
                 { 
-                    img: '/product_images/uploaded_images/cl-ic1.png', 
+                    img: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-ic1.png', 
                     alt: 'Free Worldwide Shipping', 
                     title: 'Free Worldwide Shipping',
                     subTitle: 'On all orders over $75.00'
                 },
                 { 
-                    img: '/product_images/uploaded_images/cl-ic2.png', 
+                    img: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-ic2.png', 
                     alt: 'Support 24/7', 
                     title: 'Support 24/7',
                     subTitle: 'Contact us 24 hours a day'
                 },
                 { 
-                    img: '/product_images/uploaded_images/cl-ic3.png', 
+                    img: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-ic3.png', 
                     alt: '30 Days Return', 
                     title: '30 Days Return',
                     subTitle: 'Return it within 30 day for an exchange'
                 },
                 { 
-                    img: '/product_images/uploaded_images/cl-ic4.png', 
+                    img: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-ic4.png', 
                     alt: '100% Payment Secure', 
                     title: '100% Payment Secure',
                     subTitle: 'We ensure secure payment with PEV'

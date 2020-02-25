@@ -112,7 +112,7 @@ class FreshNovelsBook extends BaseSectionConfig {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            bookImage: "/product_images/uploaded_images/no-p1.jpg",
+            bookImage: "https://fresh-novels-demo.mybigcommerce.com/product_images/uploaded_images/no-p1.jpg",
             bookImageAlt: "no-p1.jpg",
             title: "The Innocent Ones",
             subTitle: "Discover your next <br>unputdownable thriller",

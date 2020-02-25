@@ -4,21 +4,33 @@ import FreshClothesBannerCollection from './components/FreshClothes/FreshClothes
 import FreshClothesBannerDeal from './components/FreshClothes/FreshClothesBannerDeal';
 import FreshClothesBannerThree from './components/FreshClothes/FreshClothesBannerThree';
 import FreshClothesInformation from './components/FreshClothes/FreshClothesInformation';
+import FreshClothesFooterBackground from './components/FreshClothes/FreshClothesFooterBackground';
+import FreshBannerFeaturedProducts from './components/FreshClothes/FreshBannerFeaturedProducts';
+import FreshBannerNewProducts from './components/FreshClothes/FreshBannerNewProducts';
+import FreshBannerTopProducts from './components/FreshClothes/FreshBannerTopProducts';
+
 import FreshFashionBannerCollection from './components/FreshFashion/FreshFashionBannerCollection';
 import FreshFashionBannerFull from './components/FreshFashion/FreshFashionBannerFull';
 import FreshFashionInstagram from './components/FreshFashion/FreshFashionInstagram';
+import FreshFashionFooterBackground from './components/FreshFashion/FreshFashionFooterBackground';
 
 import FreshNovelsAuthor from './components/FreshNovels/FreshNovelsAuthor';
 import FreshNovelsBannerThree from './components/FreshNovels/FreshNovelsBannerThree';
 import FreshNovelsNewsletter from './components/FreshNovels/FreshNovelsNewsletter';
 import FreshNovelsBook from './components/FreshNovels/FreshNovelsBook';
+import FreshNovelsFooterBackground from './components/FreshNovels/FreshNovelsFooterBackground';
+import FreshNovelsFooterInstagram from './components/FreshNovels/FreshNovelsFooterInstagram';
+
 import FreshSoundsInstagram from './components/FreshSounds/FreshSoundsInstagram';
 import FreshSoundsBannerCollection from './components/FreshSounds/FreshSoundsBannerCollection';
+import FreshSoundsBanner from './components/FreshSounds/FreshSoundsBanner';
 import FreshSoundsBrand from './components/FreshSounds/FreshSoundsBrand';
 import FreshSoundsEasyShapeSystem from './components/FreshSounds/FreshSoundsEasyShapeSystem';
 import FreshSoundsHearingProtection from './components/FreshSounds/FreshSoundsHearingProtection';
 import FreshSoundsTestimonial from './components/FreshSounds/FreshSoundsTestimonial';
 import FreshSoundsVideo from './components/FreshSounds/FreshSoundsVideo';
+import FreshSoundsFooterBackground from './components/FreshSounds/FreshSoundsFooterBackground';
+import FreshSoundsFooterInstagram from './components/FreshSounds/FreshSoundsFooterInstagram';
 
 import FreshSweetsBannerCollection from './components/FreshSweets/FreshSweetsBannerCollection';
 import FreshSweetsStepProcess from './components/FreshSweets/FreshSweetsStepProcess';
@@ -38,6 +50,7 @@ import FreshSweetsSidebarOurChefs from './components/FreshSweets/FreshSweetsSide
 import FreshSweetsSidebarContact from './components/FreshSweets/FreshSweetsSidebarContact';
 import FreshSweetsSidebarNewsletter from './components/FreshSweets/FreshSweetsSidebarNewsletter';
 import FreshSweetsFooterInformation from './components/FreshSweets/FreshSweetsFooterInformation';
+import FreshSweetsFooterBackground from './components/FreshSweets/FreshSweetsFooterBackground';
 
 import FreshToysBannerCollection from './components/FreshToys/FreshToysBannerCollection';
 import FreshToysInformation from './components/FreshToys/FreshToysInformation';
@@ -51,6 +64,7 @@ import FreshToysSidebarClientSays from './components/FreshToys/FreshToysSidebarC
 import FreshToysSidebarNewsletter from './components/FreshToys/FreshToysSidebarNewsletter';
 import FreshToysSidebarTagCollection from './components/FreshToys/FreshToysSidebarTagCollection';
 import FreshToysSidebarProductsDeal from './components/FreshToys/FreshToysSidebarProductsDeal';
+import FreshToysFooterBackground from './components/FreshToys/FreshToysFooterBackground';
 
 import FreshCakesTestimonial from './components/FreshCakes/FreshCakesTestimonial';
 import FreshCakesInformation from './components/FreshCakes/FreshCakesInformation';
@@ -63,6 +77,7 @@ import FreshCakesAboutTheProduct from './components/FreshCakes/FreshCakesAboutTh
 import FreshCakesFooterInformation from './components/FreshCakes/FreshCakesFooterInformation';
 import FreshCakesFooterContact from './components/FreshCakes/FreshCakesFooterContact';
 import FreshCakesFooterBrands from './components/FreshCakes/FreshCakesFooterBrands';
+import FreshCakesFooterBackground from './components/FreshCakes/FreshCakesFooterBackground';
 
 import FreshBookBannerFull from './components/FreshBook/FreshBookBannerFull';
 import FreshBookSidebarLeftBannerOne from './components/FreshBook/FreshBookSidebarLeftBannerOne';
@@ -71,6 +86,7 @@ import FreshBookSidebarLeftBannerThree from './components/FreshBook/FreshBookSid
 import FreshBookSidebarLeftBannerFour from './components/FreshBook/FreshBookSidebarLeftBannerFour';
 import FreshBookFooterInformation from './components/FreshBook/FreshBookFooterInformation';
 import FreshBookFooterInstagram from './components/FreshBook/FreshBookFooterInstagram';
+import FreshBookFooterBackground from './components/FreshBook/FreshBookFooterBackground';
 
 import FreshStrollersHeaderContact from './components/FreshStrollers/FreshStrollersHeaderContact';
 import FreshStrollersFooterInformation from './components/FreshStrollers/FreshStrollersFooterInformation';
@@ -80,6 +96,7 @@ import FreshStrollersBannerTwo from './components/FreshStrollers/FreshStrollersB
 import FreshStrollersBannerProduct from './components/FreshStrollers/FreshStrollersBannerProduct';
 import FreshStrollersProductsByCategoryOne from './components/FreshStrollers/FreshStrollersProductsByCategoryOne';
 import FreshStrollersProductsByCategoryTwo from './components/FreshStrollers/FreshStrollersProductsByCategoryTwo';
+import FreshStrollersFooterBackground from './components/FreshStrollers/FreshStrollersFooterBackground';
 
 function App() {
     const tabs = [
@@ -89,7 +106,11 @@ function App() {
                 <FreshClothesBannerCollection title="Homepage -- Collection" sectionKey="fresh-clothes-banner-collection" />,
                 <FreshClothesBannerDeal title="Homepage -- Banner Deal" sectionKey="fresh-clothes-banner-deal" />,
                 <FreshClothesBannerThree title="Homepage -- Banner Three" sectionKey="fresh-clothes-banner-three" />,
-                <FreshClothesInformation title="Homepage -- Information" sectionKey="fresh-clothes-information" />
+                <FreshClothesInformation title="Homepage -- Information" sectionKey="fresh-clothes-information" />,
+                <FreshBannerFeaturedProducts title="Homepage -- Banner Featured Products"/>,
+                <FreshBannerTopProducts title="Homepage -- Banner Top Products"/>,
+                <FreshBannerNewProducts title="Homepage -- Banner New Products"/>,
+                <FreshClothesFooterBackground title="Footer -- Footer Background" />
             ]
         },
         {
@@ -97,7 +118,8 @@ function App() {
             children: [
                 <FreshFashionBannerCollection title="Homepage -- Banner Collection" sectionKey="fresh-fashion-banner-collection" />,
                 <FreshFashionBannerFull title="Homepage -- Banner Full" sectionKey="fresh-fashion-banner-full" />,
-                <FreshFashionInstagram title="Homepage -- Instagram" sectionKey="fresh-fashion-instagram" />
+                <FreshFashionInstagram title="Homepage -- Instagram" sectionKey="fresh-fashion-instagram" />,
+                <FreshFashionFooterBackground title="Footer -- Footer Background" />
             ]
         },
         {
@@ -106,19 +128,24 @@ function App() {
                 <FreshNovelsAuthor title="Homepage -- Author" sectionKey="fresh-novels-author" />,
                 <FreshNovelsBannerThree title="Homepage -- Banner Three" sectionKey="fresh-novels-banner-three" />,
                 <FreshNovelsNewsletter title="Homepage -- Newsletter" sectionKey="fresh-novels-newsletter" />,
-                <FreshNovelsBook title="Homepage -- Book" sectionKey="fresh-novels-book" />
+                <FreshNovelsBook title="Homepage -- Book" sectionKey="fresh-novels-book" />,
+                <FreshNovelsFooterBackground title="Footer -- Footer Background" />,
+                <FreshNovelsFooterInstagram title="Footer -- Footer Instagram"/>
             ]
         },
         {
             titleGroup: "Fresh Sounds Sections",
             children: [
                 <FreshSoundsBannerCollection title="Homepage -- Banner Collection" sectionKey="fresh-sounds-banner-collection" />,
+                <FreshSoundsBanner title="Homepage -- Banner" sectionKey="fresh-sounds-banner" />,
                 <FreshSoundsBrand title="Homepage -- Brand" sectionKey="fresh-sounds-brand" />,
                 <FreshSoundsEasyShapeSystem title="Homepage -- Easy Shape System" sectionKey="fresh-sounds-easy-shape-system" />,
                 <FreshSoundsHearingProtection title="Homepage -- Hearing Protection" sectionKey="fresh-sounds-hearing-protection" />,
                 <FreshSoundsTestimonial title="Homepage -- Testimonial" sectionKey="fresh-sounds-testimonial" />,
                 <FreshSoundsVideo title="Homepage -- Video" sectionKey="fresh-sounds-video" />,
-                <FreshSoundsInstagram title="Homepage -- Instagram" sectionKey="fresh-sounds-instagram" />
+                <FreshSoundsInstagram title="Homepage -- Instagram" sectionKey="fresh-sounds-instagram" />,
+                <FreshSoundsFooterBackground title="Footer -- Footer Background" />,
+                <FreshSoundsFooterInstagram title="Footer -- Footer Instagram"/>
             ]
         },
         {
@@ -141,7 +168,8 @@ function App() {
                 <FreshSweetsSidebarOurChefs title="Sidebar -- Sidebar Our Chefs" />,
                 <FreshSweetsSidebarContact title="Sidebar -- Sidebar Contact" />,
                 <FreshSweetsSidebarNewsletter title="Sidebar -- Sidebar Newsletter" />,
-                <FreshSweetsFooterInformation title="Footer -- Footer Information" />
+                <FreshSweetsFooterInformation title="Footer -- Footer Information" />,
+                <FreshSweetsFooterBackground title="Footer -- Footer Background" />
             ]
         },
         {
@@ -158,7 +186,8 @@ function App() {
                 <FreshToysSidebarClientSays title="Sidebar -- Sidebar Client Says"/>,
                 <FreshToysSidebarNewsletter title="Sidebar -- Sidebar Newsletter"/>,
                 <FreshToysSidebarTagCollection title="Sidebar -- Sidebar Tag Collection"/>,
-                <FreshToysSidebarProductsDeal title="Sidebar -- Sidebar Products Deal"/>
+                <FreshToysSidebarProductsDeal title="Sidebar -- Sidebar Products Deal"/>,
+                <FreshToysFooterBackground title="Footer -- Footer Background" />
             ]
         },
         {
@@ -174,7 +203,8 @@ function App() {
                 <FreshCakesAboutTheProduct title="Homepage -- About The Product" sectionKey="fresh-cakes-about-the-product"/>,
                 <FreshCakesFooterInformation title="Footer -- Footer Information"/>,
                 <FreshCakesFooterContact title="Footer -- Footer Contact"/>,
-                <FreshCakesFooterBrands title="Footer -- Footer Brands"/>
+                <FreshCakesFooterBrands title="Footer -- Footer Brands"/>,
+                <FreshCakesFooterBackground title="Footer -- Footer Background" />
             ]
         },
         {
@@ -186,7 +216,8 @@ function App() {
                 <FreshBookSidebarLeftBannerThree title="Sidebar -- Sidebar Left Banner Three"/>,
                 <FreshBookSidebarLeftBannerFour title="Sidebar -- Sidebar Left Banner Four"/>,
                 <FreshBookFooterInformation title="Footer -- Footer Informartion"/>,
-                <FreshBookFooterInstagram title="Footer -- Footer Instagram"/>
+                <FreshBookFooterInstagram title="Footer -- Footer Instagram"/>,
+                <FreshBookFooterBackground title="Footer -- Footer Background" />
             ]
         },
         {
@@ -199,7 +230,8 @@ function App() {
                 <FreshStrollersBannerProduct title="Homepage -- Banner Product" sectionKey="fresh-strollers-banner-product-info"/>,
                 <FreshStrollersProductsByCategoryOne title="Homepage -- Products By Category One" sectionKey="fresh-strollers-product-by-category-1"/>,
                 <FreshStrollersProductsByCategoryTwo title="Homepage -- Products By Category Two" sectionKey="fresh-strollers-product-by-category-2"/>,
-                <FreshStrollersFooterInformation title="Footer -- Footer Informartion"/>
+                <FreshStrollersFooterInformation title="Footer -- Footer Informartion"/>,
+                <FreshStrollersFooterBackground title="Footer -- Footer Background" />
             ]
         }
     ];

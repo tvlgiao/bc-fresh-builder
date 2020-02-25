@@ -50,9 +50,9 @@ class FreshSoundsVideo extends BaseSectionConfig {
 
         this.state = this.getStateFromLocalStorage() || {
             videoUrl: "https://fresh-sounds-demo.mybigcommerce.com/content/demo-video.mp4",
-            Banner: "/product_images/uploaded_images/so-video-bg.jpg",
+            Banner: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-video-bg.jpg",
             BannerAlt: "so-video-bg.jpg",
-            iconPlay: "/product_images/uploaded_images/so-icon-play.png",
+            iconPlay: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-icon-play.png",
             iconPlayAlt: "so-icon-play.png"
         };
     }

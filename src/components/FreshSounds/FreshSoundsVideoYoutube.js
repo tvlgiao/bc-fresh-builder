@@ -1,6 +1,6 @@
 import React from 'react';
-import { SectionConfigLayout } from './utils';
-import BaseSectionConfig from './BaseSectionConfig';
+import { SectionConfigLayout } from '../../utils';
+import BaseSectionConfig from '../../BaseSectionConfig';
 
 class FreshSoundsVideoYoutubeFormGeneral extends React.Component {
     constructor(props) {

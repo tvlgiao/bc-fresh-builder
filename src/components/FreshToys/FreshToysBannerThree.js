@@ -75,23 +75,23 @@ class FreshToysBannerThree extends BaseSectionConfig {
         this.state = this.getStateFromLocalStorage() || {
             items: [
                 { 
-                    img: '/product_images/uploaded_images/banner-chidrenwear.png', 
+                    img: 'https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/banner-chidrenwear.png', 
                     alt: 'banner-chidrenwear.png', 
-                    imgCaption: '/product_images/uploaded_images/banner-chidrenwear-text.png',
+                    imgCaption: 'https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/banner-chidrenwear-text.png',
                     altCaption: 'banner-chidrenwear-text.png',
                     actionLink: '#'
                 },
                 { 
-                    img: '/product_images/uploaded_images/banner-kidproduct.png', 
+                    img: 'https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/banner-kidproduct.png', 
                     alt: 'banner-kidproduct.png', 
-                    imgCaption: '/product_images/uploaded_images/banner-kidproduct-text.png',
+                    imgCaption: 'https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/banner-kidproduct-text.png',
                     altCaption: 'banner-kidproduct-text.png',
                     actionLink: '#'
                 },
                 { 
-                    img: '/product_images/uploaded_images/banner-pampers.png', 
+                    img: 'https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/banner-pampers.png', 
                     alt: 'banner-pampers.png', 
-                    imgCaption: '/product_images/uploaded_images/banner-pampers-text.png',
+                    imgCaption: 'https://fresh-toys-demo.mybigcommerce.com/product_images/uploaded_images/banner-pampers-text.png',
                     altCaption: 'banner-pampers-text.png',
                     actionLink: '#'
                 }

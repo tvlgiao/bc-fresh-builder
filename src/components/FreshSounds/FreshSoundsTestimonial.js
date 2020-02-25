@@ -69,7 +69,7 @@ class FreshSoundsTestimonial extends BaseSectionConfig {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            icon: '/product_images/uploaded_images/iconcmt.png',
+            icon: 'https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/iconcmt.png',
             iconAlt: 'iconcmt.png',
             items: [
                 { 

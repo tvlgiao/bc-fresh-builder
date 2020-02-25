@@ -75,21 +75,21 @@ class FreshClothesBannerThree extends BaseSectionConfig {
         this.state = this.getStateFromLocalStorage() || {
             items: [
                 { 
-                    img: '/product_images/uploaded_images/cl-bt1.jpg', 
+                    img: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-bt1.jpg', 
                     alt: 'The Classic', 
                     title: 'The Classic',
                     subTitle: '5 items',
                     actionLink: '#'
                 },
                 { 
-                    img: '/product_images/uploaded_images/cl-bt2.jpg', 
+                    img: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-bt2.jpg', 
                     alt: 'Big bag', 
                     title: 'Big bag',
                     subTitle: '3 items',
                     actionLink: '#'
                 },
                 { 
-                    img: '/product_images/uploaded_images/cl-bt3.jpg', 
+                    img: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-bt3.jpg', 
                     alt: 'New Style', 
                     title: 'New Style',
                     subTitle: '7 items',

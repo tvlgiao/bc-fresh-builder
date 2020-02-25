@@ -57,7 +57,7 @@ class FreshClothesBannerDeal extends BaseSectionConfig {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            backgroundImage: '/product_images/uploaded_images/cl-bd-bg.jpg', 
+            backgroundImage: 'https://fresh-clothes-demo.mybigcommerce.com/product_images/uploaded_images/cl-bd-bg.jpg', 
             backgroundImageAlt: 'Sale Up To 20% Off', 
             title: 'Sale Up To 20% Off', 
             subTitle: 'DEAL OF THE DAY', 

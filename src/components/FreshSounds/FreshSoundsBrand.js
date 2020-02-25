@@ -67,32 +67,32 @@ class FreshSoundsBrand extends BaseSectionConfig {
         this.state = this.getStateFromLocalStorage() || {
             items: [
                 { 
-                    img: "/product_images/uploaded_images/so-brand1.png",
+                    img: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-brand1.png",
                     alt: "so-brand1.png",
                     actionLink: "#" 
                 },
                 { 
-                    img: "/product_images/uploaded_images/so-brand2.png",
+                    img: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-brand2.png",
                     alt: "so-brand2.png",
                     actionLink: "#" 
                 },
                 { 
-                    img: "/product_images/uploaded_images/so-brand3.png",
+                    img: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-brand3.png",
                     alt: "so-brand3.png",
                     actionLink: "#" 
                 },
                 { 
-                    img: "/product_images/uploaded_images/so-brand4.png",
+                    img: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-brand4.png",
                     alt: "so-brand4.png",
                     actionLink: "#" 
                 },
                 { 
-                    img: "/product_images/uploaded_images/so-brand5.png",
+                    img: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-brand5.png",
                     alt: "so-brand5.png",
                     actionLink: "#" 
                 },
                 { 
-                    img: "/product_images/uploaded_images/so-brand6.png",
+                    img: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-brand6.png",
                     alt: "so-brand6.png",
                     actionLink: "#" 
                 }

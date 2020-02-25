@@ -88,26 +88,26 @@ class FreshSoundsHearingProtection extends BaseSectionConfig {
         super(props);
 
         this.state = this.getStateFromLocalStorage() || {
-            backgroundImage: "/product_images/uploaded_images/bkg2.png",
-            backgroundImageAlt: "/product_images/uploaded_images/bkg2.png",
-            backgroundImageOverlay: "/product_images/uploaded_images/so-hp-overlay.png",
+            backgroundImage: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/bkg2.png",
+            backgroundImageAlt: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/bkg2.png",
+            backgroundImageOverlay: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-hp-overlay.png",
             backgroundImageOverlayAlt: "so-hp-overlay.png",
             caption: "Decibullz earplugs have the highest Noise Reduction Rating for a custom earplug with a maximum NRR of 31. Decibullz enviroments",
             items: [
                 {
-                    icon: "/product_images/uploaded_images/so-hp-ico4.png",
+                    icon: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-hp-ico4.png",
                     iconAlt: "so-hp-ico4.png",
                     title: "UP TO 31 NRR",
                     actionLink: "#"
                 },
                 {
-                    icon: "/product_images/uploaded_images/so-hp-ico5.png",
+                    icon: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-hp-ico5.png",
                     iconAlt: "so-hp-ico5.png",
                     title: "MADE IN THE USA",
                     actionLink: "#"
                 },
                 {
-                    icon: "/product_images/uploaded_images/so-hp-ico6.png",
+                    icon: "https://fresh-sounds-demo.mybigcommerce.com/product_images/uploaded_images/so-hp-ico6.png",
                     iconAlt: "so-hp-ico6.png",
                     title: "SECURE CUSTOM FIT",
                     actionLink: "#"
