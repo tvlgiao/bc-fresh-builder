@@ -59,7 +59,7 @@ class FreshSoundsBanner extends BaseSectionConfig {
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-banner" data-template="fresh_sounds_banner" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="fresh-section fresh-section--sounds-banner u-hiddenVisually" data-local-banner-position="fresh-sounds-banner" data-template="fresh_sounds_banner" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }

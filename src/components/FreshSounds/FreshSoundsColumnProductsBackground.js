@@ -58,7 +58,7 @@ class FreshSoundsColumnProductsBackground extends BaseSectionConfig {
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-column-products-background" data-template="fresh_sounds_column_products_background" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="fresh-section-background u-hiddenVisually" data-local-banner-position="fresh-sounds-column-products-background" data-template="fresh_sounds_column_products_background" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }

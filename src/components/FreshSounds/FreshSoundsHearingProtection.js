@@ -132,7 +132,7 @@ class FreshSoundsHearingProtection extends BaseSectionConfig {
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-hearing-protection" data-template="fresh_sounds_hearing_protection" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="fresh-section fresh-section--sounds-hearing-protection u-hiddenVisually" data-local-banner-position="fresh-sounds-hearing-protection" data-template="fresh_sounds_hearing_protection" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }

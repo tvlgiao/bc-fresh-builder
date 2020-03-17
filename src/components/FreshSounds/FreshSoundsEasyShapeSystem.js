@@ -167,7 +167,7 @@ class FreshSoundsEasyShapeSystem extends BaseSectionConfig {
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-easy-shape-system" data-template="fresh_sounds_easy_shape_system" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="fresh-section fresh-section--sounds-easy-shape-system u-hiddenVisually" data-local-banner-position="fresh-sounds-easy-shape-system" data-template="fresh_sounds_easy_shape_system" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }

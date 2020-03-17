@@ -69,7 +69,7 @@ class FreshSoundsVideo extends BaseSectionConfig {
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-video" data-template="fresh_sounds_video" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="fresh-section fresh-section--sounds-video u-hiddenVisually" data-local-banner-position="fresh-sounds-video" data-template="fresh_sounds_video" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }

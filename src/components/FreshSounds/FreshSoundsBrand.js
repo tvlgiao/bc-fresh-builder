@@ -117,7 +117,7 @@ class FreshSoundsBrand extends BaseSectionConfig {
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-brand" data-template="fresh_sounds_brand" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="fresh-section fresh-section--sounds-brand u-hiddenVisually" data-local-banner-position="fresh-sounds-brand" data-template="fresh_sounds_brand" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }

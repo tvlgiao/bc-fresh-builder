@@ -102,7 +102,7 @@ class FreshSoundsFooterInstagram extends BaseSectionConfig {
                 ]}
 
 
-                code={`<div class="u-hiddenVisually" data-local-banner-position="fresh-sounds-footer-instagram" data-template="fresh_sounds_footer_instagram" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="footer-info-col footer-info-col--instagram footer-sounds-instagram u-hiddenVisually" data-local-banner-position="fresh-sounds-footer-instagram" data-template="fresh_sounds_footer_instagram" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }
