@@ -18,7 +18,7 @@ class FreshSoundsFooterBackgroundFormGeneral extends React.Component {
             <form>
                 <div className="form-group">
                     <label htmlFor="backgroundImage">Background Image URL</label>
-                    <input type="text" className="form-control" id="backgroundImage" npame="backgroundImage" value={backgroundImage} onChange={this.handleChange} placeholder="Enter The Background Image URL" />
+                    <input type="text" className="form-control" id="backgroundImage" name="backgroundImage" value={backgroundImage} onChange={this.handleChange} placeholder="Enter The Background Image URL" />
                 </div>
                 <div className="form-group">
                     <label htmlFor="backgroundImageAlt">Background Image ALT</label>
