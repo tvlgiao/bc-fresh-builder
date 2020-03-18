@@ -2,7 +2,7 @@ import React from 'react';
 import { SectionConfigLayout } from '../../utils';
 import BaseSectionConfig from '../../BaseSectionConfig';
 
-class FreshSoundsBannerFormGeneral extends React.Component {
+class FreshSoundsBannerFreeShippingFormGeneral extends React.Component {
     constructor(props) {
         super(props);
         this.handleChange = this.handleChange.bind(this);
@@ -33,9 +33,9 @@ class FreshSoundsBannerFormGeneral extends React.Component {
     }
 }
 
-class FreshSoundsBanner extends BaseSectionConfig {
+class FreshSoundsBannerFreeShipping extends BaseSectionConfig {
     defaultTitle = "Fresh Sounds Banner";
-    scopeName = "FreshSoundsBanner";
+    scopeName = "FreshSoundsBannerFreeShipping";
 
     constructor(props) {
         super(props);
@@ -50,19 +50,19 @@ class FreshSoundsBanner extends BaseSectionConfig {
     render() {
         const data = Buffer.from(JSON.stringify(this.state)).toString('base64');
         return (
-            <SectionConfigLayout elClass="freshSoundsBanner" title={this.title} sectionKey={this.sectionKey}
+            <SectionConfigLayout elClass="freshSoundsBannerFreeShipping" title={this.title} sectionKey={this.sectionKey}
                  panels={[
                     {
                         title: "General",
-                        element: <FreshSoundsBannerFormGeneral onFormGeneralChange={this.onFormGeneralChange} {...this.state} heading={this.state.heading} />
+                        element: <FreshSoundsBannerFreeShippingFormGeneral onFormGeneralChange={this.onFormGeneralChange} {...this.state} heading={this.state.heading} />
                     }
                 ]}
 
 
-                code={`<div class="fresh-section fresh-section--sounds-banner u-hiddenVisually" data-local-banner-position="fresh-sounds-banner" data-template="fresh_sounds_banner" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
+                code={`<div class="fresh-section fresh-section--sounds-banner-free-shipping u-hiddenVisually" data-local-banner-position="fresh-sounds-banner-free-shipping" data-template="fresh_sounds_banner_free_shipping" data-params="${data}">DO NOT REMOVE THIS LINE</div>`}
             />
         );
     }
 }
 
-export default FreshSoundsBanner;
+export default FreshSoundsBannerFreeShipping;

@@ -23,7 +23,7 @@ import FreshNovelsFooterInstagram from './components/FreshNovels/FreshNovelsFoot
 
 import FreshSoundsInstagram from './components/FreshSounds/FreshSoundsInstagram';
 import FreshSoundsBannerCollection from './components/FreshSounds/FreshSoundsBannerCollection';
-import FreshSoundsBanner from './components/FreshSounds/FreshSoundsBanner';
+import FreshSoundsBannerFreeShipping from './components/FreshSounds/FreshSoundsBannerFreeShipping';
 import FreshSoundsBrand from './components/FreshSounds/FreshSoundsBrand';
 import FreshSoundsEasyShapeSystem from './components/FreshSounds/FreshSoundsEasyShapeSystem';
 import FreshSoundsHearingProtection from './components/FreshSounds/FreshSoundsHearingProtection';
@@ -139,7 +139,7 @@ function App() {
             titleGroup: "Fresh Sounds Sections",
             children: [
                 <FreshSoundsBannerCollection title="Homepage -- Banner Collection" sectionKey="fresh-sounds-banner-collection" />,
-                <FreshSoundsBanner title="Homepage -- Banner" sectionKey="fresh-sounds-banner" />,
+                <FreshSoundsBannerFreeShipping title="Homepage -- Banner Free Shipping" sectionKey="fresh-sounds-banner-free-shipping" />,
                 <FreshSoundsBrand title="Homepage -- Brand" sectionKey="fresh-sounds-brand" />,
                 <FreshSoundsEasyShapeSystem title="Homepage -- Easy Shape System" sectionKey="fresh-sounds-easy-shape-system" />,
                 <FreshSoundsHearingProtection title="Homepage -- Hearing Protection" sectionKey="fresh-sounds-hearing-protection" />,
